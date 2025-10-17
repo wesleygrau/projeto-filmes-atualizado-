@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Título que aparece na aba do navegador -->
+  <title>Lista de Alunos</title>
+<!-- Importa o arquivo CSS externo para estilizar a página -->
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- DIV principal que contém os elementos do login -->
+  <div class="caixa">
+    
+    <!-- Título da seção -->
+    <h2>LOGIN</h2>
+
+    <!-- Campo de texto para digitar o nome do aluno -->
+    <input type="text" id="nomeAluno" placeholder="Digite seu nome">
+
+    <!-- Campo de senha (caracteres aparecem escondidos) -->
+    <input type="password" id="nomeAluno" placeholder="Digite sua senha">
+
+    <!-- Campo de texto para o e-mail -->
+    <input type="text" id="nomeAluno" placeholder="Digite seu Gmail">
+
+    <!-- Botão que, ao ser clicado, chama a função "adicionarAluno()" do JavaScript -->
+    <!-- Também redireciona para a página "index.html" -->
+    <a href="index.html">
+      <button id="btnAdicionar" onclick="adicionarAluno()">Entrar</button>
+    </a>
+
+    <!-- Parágrafo para exibir mensagens (ex: erros ou confirmações) -->
+    <p id="mensagem"></p>
+  </div>
+
+  <!-- Importa o arquivo JavaScript que contém a lógica da página -->
+  <script src="script.js"></script>
+</body>
+</html>
